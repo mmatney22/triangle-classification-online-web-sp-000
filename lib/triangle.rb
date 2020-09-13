@@ -14,6 +14,7 @@ class Triangle
     :scalene
     if (@s_one + @s_two) <= @s_three || (@s_two + @s_three) <= @s_one || (@s_three + @s_one) <= @s_two
       raise TriangleError
+    end
   end
 
   class TriangleError < StandardError
