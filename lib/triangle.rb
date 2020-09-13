@@ -14,6 +14,8 @@ class Triangle
     :scalene
     if (@s_one * @s_two * @s_three) = 0 || (@s_one + @s_two) <= @s_three || (@s_two + @s_three) <= @s_one || (@s_three + @s_one) <= @s_two
       raise TriangleError
+    else
+
     end
   end
 
