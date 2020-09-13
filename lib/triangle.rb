@@ -12,7 +12,8 @@ class Triangle
     :equilateral
     :isosceles
     :scalene
-    if #triangle invalid
+    if (@s_one + @s_two) <= @s_three || (@s_two + @s_three) <= @s_one
+
       begin
         raise TriangleError
       raise TriangleError => error
