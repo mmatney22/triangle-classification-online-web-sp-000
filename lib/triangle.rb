@@ -12,7 +12,8 @@ class Triangle
     if a * b * c = 0 || (a + b) <= c || (b + c) <= a || (c + a) <= b
       begin
         raise TriangleError
-
+      end
+      
     elsif a == b && a == c
         self.kind = :equilateral
 
