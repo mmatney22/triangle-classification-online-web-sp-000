@@ -23,7 +23,7 @@ class Triangle
     elsif
       s_one == s_two || s_one == s_three || s_two == s_three
         self.kind = :isosceles
-    elsif
+    else
       s_one == s_two || s_one == s_three || s_two == s_three
         self.kind = :scalene       
     end
