@@ -12,8 +12,7 @@ class Triangle
     if a * b * c = 0 || a + b <= c || b + c <= a || c + a <= b
       begin
         raise TriangleError
-      rescue TriangleError => error
-        puts error.message
+      rescue TriangleError 
       end
 
     elsif a == b && a == c
