@@ -19,6 +19,6 @@ class Triangle
   end
 
   class TriangleError < StandardError
-
+     s_one < s_two + s_three || s_two < s_one + s_three || s_three < s_one + s_two
   end
 end
