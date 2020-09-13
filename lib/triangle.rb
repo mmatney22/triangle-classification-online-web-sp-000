@@ -12,7 +12,7 @@ class Triangle
     if a * b * c = 0 || a + b <= c || b + c <= a || c + a <= b
       begin
         raise TriangleError
-      rescue TriangleError 
+      rescue TriangleError
       end
 
     elsif a == b && a == c
@@ -27,6 +27,6 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    
+
   end
 end
