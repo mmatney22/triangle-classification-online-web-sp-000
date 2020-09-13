@@ -13,10 +13,7 @@ class Triangle
     :isosceles
     :scalene
     if (@s_one + @s_two) <= @s_three || (@s_two + @s_three) <= @s_one || (@s_three + @s_one) <= @s_two
-
-      begin
-        raise TriangleError
-      raise TriangleError => error
+      raise TriangleError
   end
 
   class TriangleError < StandardError
