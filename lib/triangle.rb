@@ -12,10 +12,10 @@ class Triangle
     :equilateral
     :isosceles
     :scalene
-    #if triangle invalid
-      #begin
-        #raise TriangleError
-      #raise TriangleError => error
+    if triangle invalid
+      begin
+        raise TriangleError
+      raise TriangleError => error
   end
 
   class TriangleError < StandardError
