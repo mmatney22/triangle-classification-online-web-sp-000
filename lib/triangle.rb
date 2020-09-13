@@ -12,7 +12,7 @@ class Triangle
     :equilateral
     :isosceles
     :scalene
-    if triangle invalid
+    if #triangle invalid
       begin
         raise TriangleError
       raise TriangleError => error
