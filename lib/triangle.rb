@@ -17,9 +17,12 @@ class Triangle
       raise TriangleError
         puts error.message
       end
-    else
+    elsif
       s_one == s_two && s_one == s_three
         self.kind = :equilateral
+    elsif
+      s_one == s_two && s_one == s_three
+        self.kind = :isosceles
     end
   end
 
