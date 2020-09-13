@@ -13,12 +13,10 @@ class Triangle
       begin
         raise TriangleError
 
-    elsif
-      a == b && a == c
+    elsif a == b && a == c
         self.kind = :equilateral
 
-    elsif
-      a == b|| a == c|| b == c
+    elsif a == b|| a == c|| b == c
         self.kind = :isosceles
 
     else
