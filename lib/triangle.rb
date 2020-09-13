@@ -1,6 +1,6 @@
 class Triangle
 
-  attr_accessor :s_one, :s_two, :s_three
+  attr_accessor :s_one, :s_two, :s_three, :kind
 
   def initialize(s_one, s_two, s_three)
     @s_one = s_one
