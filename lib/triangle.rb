@@ -13,6 +13,7 @@ class Triangle
       begin
         raise TriangleError
       rescue TriangleError => error
+        puts error.message
       end
 
     elsif a == b && a == c
